@@ -1,17 +1,3 @@
-// import React from "react";
-// function DarkModeToggle({ 
-//     dark, setDark }) {
-//   return (
-//     <button
-//       onClick={() => setDark(!dark)}
-//       className="bg-gray-300 px-3 py-1 rounded"
-//     >
-//       {dark ? "☀️ Light" : "🌙 Dark"}
-//     </button>
-//   );
-// }
-// export default DarkModeToggle;
-
 import React from "react";
 
 function DarkModeToggle({ dark, setDark }) {
