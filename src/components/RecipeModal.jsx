@@ -26,11 +26,6 @@ function RecipeModal({ id, onClose }) {
   if (!id) return null;
 
   return (
-    // <div
-    //   className="fixed inset-0 bg-black/20 bg-opacity-60 flex justify-center items-center z-50"
-    //   onClick={onClose}
-    // >
-    <div
   className="fixed inset-0 backdrop-blur-md bg-black/30 flex justify-center items-center z-50"
   onClick={onClose}
 >
